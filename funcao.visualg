@@ -1,0 +1,27 @@
+algoritmo "RotinasComRetorno"
+
+funcao somar (a: inteiro, b: inteiro): inteiro
+    inicio
+      retorne a + b
+    fimfuncao 
+var
+      resultado1: inteiro
+      resultado2: inteiro
+      resultado3: inteiro
+      resultado4: inteiro
+
+    inicio
+
+      resultado1 <- somar(15, 2)
+      escreval("O resultado retornado foi: " resultado1)
+
+      resultado2 <- somar(6, 8)
+      escreval("O resultado retornado foi: " resultado2)
+
+      resultado3 <- somar(9, 11)
+      escreval("O resultado retornado foi: " resultado3)
+
+      resultado4 <- somar(16, 5)
+      escreval("O resultado retornado foi: " resultado4)
+
+    fimalgoritmo
